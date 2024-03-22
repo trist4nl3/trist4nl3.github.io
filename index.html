@@ -1,78 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tristan's portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-    <div class="top-left-icons">
-        <img src="assets/waveicon2.gif" alt="Icon 1" id="infoPopup" onclick="showInfo('about')">
-        <img src="assets/pokeicon.gif" alt="Icon 2" onclick="showInfo('resume')">
-    </div>
-
-    <div class="top-right-icons">
-        <img src="assets/phoneicon.gif" alt="Icon 3" onclick="showInfo('contact')">
-        <img src="assets/thumbsicon.gif" alt="Icon 4" onclick="showInfo('rickroll')">
-    </div>
-    
-    
-    
-
-    <div class="cafe-background">
-        <!-- Sign -->
-        <div class="sign" onclick="toggleMenuPopup()"></div>
-
-        <div class="info-popup" id="sidebarPopup">
-            <img src="assets/closeButton.png" alt="Close" class="close-btn" onclick="toggleSidebarPopup()">
-            <div class="content">
-                <img src="assets/happyicon.gif" alt="Talking person" class="avatar">
-                <div class="text">
-                    <h2>About Me</h2>
-                    <p>Hi, I'm Tristan. I'm a software developer with a passion for creating games and web applications. </p>
-                </div>
-            </div>
-        </div>
-        
-        
-
-        <!-- Menu Popup -->
-        <div class="menu-popup" id="menuPopup">
-            <!-- Title -->
-            <h2 class="menu-title">Projects Menu</h2>
-            <!-- Close button -->
-            <img src="assets/closeButton.png" alt="Close" class="close-btn" onclick="toggleMenuPopup()">
-            <!-- Menu items (your projects as dishes) -->
-            <div class="menu-items">
-                <a href="https://trist4nl3.github.io/rust_pomodoro_webapp/" class="dish">
-                    <img src="assets/pomodoroTimer.png" alt="PomodoroTimer">
-                    <h3>Personal Pomodoro Timer</h3>
-                    <p>Made in Rust/Yew</p>
-                </a>
-                <a href="https://trist4nl3.github.io/cppGameBrowser/" class="dish">
-                    <img src="assets/gameBrowser.png" alt="gameBrowser">
-                    <h3>C++ Game Browser</h3>
-                    <p>A game browser to C++ games I've made</p>
-                </a>
-                <a href="project1.html" class="dish">
-                    <img src="assets/project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Description of Project 1</p>
-                </a>
-                <a href="project2.html" class="dish">
-                    <img src="assets/project2.jpg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>Description of Project 2</p>
-                </a>
-                <!-- Add more dishes as needed -->
-            </div>
-        </div>
-        <!-- End Menu Popup -->
-    </div>
-
-    <script src="script.js"></script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tristan | Portfolio</title>
+    <script type="module" crossorigin src="/assets/index-OERxSuSZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-E8vKhTmF.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
